@@ -1,0 +1,25 @@
+# ---------------------------------------
+# Fenn Configuration (Modify Carefully)
+# ---------------------------------------
+
+project: sentiment-analysis
+
+# ---------------------------
+# Logging & Tracking
+# ---------------------------
+
+logger:
+  dir: logger
+
+data:
+  test_size: 0.2
+  random_state: 42
+# ---------------------------------------
+# Example of User Section
+# ---------------------------------------
+
+train:
+    lr: 0.001
+    epochs: 5
+    vectorizer:
+      max_features: 500
